@@ -1,5 +1,5 @@
 # news_analyzer
-A news paragraph from 'TimesOfIndia' is taken as a sample and analysis on news is done.
+A news paragraph from **TimesOfIndia** is taken as a sample and analysis on news is done.
 
 - The topics on which the news is circling around is analysed.
 - And then sentimental analysis on those paragraph is also done.
