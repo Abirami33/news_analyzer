@@ -1,0 +1,40 @@
+SAMPLE PARAGRAPH TAKEN:
+
+
+['Rising sea level spells disaster for delta regions', 
+'Sea levels are rising at different rates along the Indian coast, with projections till the end of the current century varying between 3.5 and 34.6 inches and which may pose a danger to major deltas, including the Cauvery delta, in east India and vast stretches of the western coastline, including Mumbai.', 
+'Sharing studies by the Hyderabadbased Indian National Centre for Ocean Information Services, the government on Friday told the Lok Sabha that sea level rise between 1990 and 2100 can make west coast stretches like Khambat and Kutch in Gujarat, Mumbai and parts of Konkan and south Kerala most vulnerable.', 
+'The threats posed by sea level rise due to global warming have direct implications for India’s food security as hundreds of millions of people are dependent on the river water systems that could be adversely impacted by the possible inundation and rapid changes in the ecosystem.', 
+'As it is water demand is rising and a Unesco report earlier this year warned that central and south India will face high levels of deterioration of water supply by 2050. ']
+
+
+POSSIBLE TOPICS INFERRED FROM GIVEN PARAGRAPH:
+
+
+[(0, '0.018*"south" + 0.018*"sea" + 0.018*"level"'), (1, '0.033*"level" + 0.026*"water" + 0.026*"delta"')]
+
+
+Analysis of news paragraph taken:
+
+
+*Rising sea level spells disaster for delta regions
+--------------{'neg': 0.369, 'neu': 0.631, 'pos': 0.0, 'compound': -0.6249}
+
+*Sea levels are rising at different rates along the Indian coast, with projections till the end of the current century varying between 3.5 and 34.6 inches and which may pose a danger to major deltas, including the Cauvery delta, in east India and vast stretches of the western coastline, including Mumbai.
+--------------{'neg': 0.065, 'neu': 0.935, 'pos': 0.0, 'compound': -0.5267}
+
+*Sharing studies by the Hyderabadbased Indian National Centre for Ocean Information Services, the government on Friday told the Lok Sabha that sea level rise between 1990 and 2100 can make west coast stretches like Khambat and Kutch in Gujarat, Mumbai and parts of Konkan and south Kerala most vulnerable. 
+--------------{'neg': 0.041, 'neu': 0.86, 'pos': 0.099, 'compound': 0.4779}
+
+*The threats posed by sea level rise due to global warming have direct implications for India’s food security as hundreds of millions of people are dependent on the river water systems that could be adversely impacted by the possible inundation and rapid changes in the ecosystem. 
+--------------{'neg': 0.091, 'neu': 0.83, 'pos': 0.079, 'compound': -0.1531}
+
+*As it is water demand is rising and a Unesco report earlier this year warned that central and south India will face high levels of deterioration of water supply by 2050. 
+--------------{'neg': 0.114, 'neu': 0.886, 'pos': 0.0, 'compound': -0.3818}
+
+
+SUMMARY:
+
+{'positive': 1, 'neutral': 0, 'negative': 4}
+
+
