@@ -91,7 +91,7 @@ ldamodel = Lda(doc_term_matrix, num_topics=2, id2word = dictionary, passes=50)
 print("\n")
 print("POSSIBLE TOPICS INFERRED FROM GIVEN PARAGRAPH:")
 print("\n")
-result=ldamodel.print_topics(num_topics=2, num_words=3)
+result=ldamodel.print_topics(num_topics=1, num_words=8)
 print(result)
 #Each line is a topic with individual topic terms and weights.
 
